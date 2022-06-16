@@ -1,0 +1,152 @@
+.contactame{
+    scroll-margin-top: 80px ;
+}
+.contactame_cover{
+    max-width: 1200px;
+    font-family:  'Viga', sans-serif;
+    margin: auto;
+    margin-bottom: 10rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px black;
+}
+
+.contactame_informacion h1{
+    font-size: 45px;
+    margin-bottom: 3.5rem;
+}
+
+.contactame_contenedor_icons p{
+    font-size: 35px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 1.5px 1.5px 1.5px black;
+    margin-top: -1.5rem;
+}
+.contactame_contenedor_icons{
+    height: 270px;
+    font-size: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactame_email{
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    height: 210px;
+    margin-top: -5rem;
+}
+
+.contactame_facebook{
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    height: 210px;
+    margin-top: -5rem;
+}
+.contactame_whatsap{
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    height: 210px;
+    margin-top: -5rem;
+}
+
+.contactame_contenedor_icons a{
+    text-decoration: none;
+}
+
+.overlay1{
+    display: block;
+    transform: translateY(-70%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.contactame_email:hover .overlay1{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.overlay2{
+    display: block;
+    transform: translateY(-70%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.contactame_facebook:hover .overlay2{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.overlay3{
+    display: block;
+    transform: translateY(-70%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.contactame_whatsap:hover .overlay3{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+@media(max-width:768px){
+    .contactame_cover{
+        height: 435px;
+        width: 320px;
+    }
+    .contactame_informacion{
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+        text-decoration-color: blueviolet;
+        text-decoration-thickness: 10px;
+        margin-bottom: 2.5rem;
+    }
+    .contactame_contenedor_icons{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 6rem;
+        margin-left: -4rem;
+        font-size: 7rem;
+        height: 300px;
+    }
+    .contactame_facebook{
+        width: 150px;
+        height: 100px;
+        margin-top: -16.5rem;
+        margin-left: 2rem;
+    }
+    .contactame_email{
+        margin-bottom: 5rem;
+    }
+    .contactame_whatsap{
+        margin-left: 6rem;
+        margin-top: -7.5rem;
+    }
+    .contactame_contenedor_icons p{
+        font-size: 25px;
+        color: black;
+        border-radius: 10px;
+        box-shadow: 3px 1.5px 1.5px 1.5px black;
+        margin-top: -0.9rem;
+    }
+    .overlay1{
+        width: 120px;
+        margin-left: 65px;
+    }
+    .overlay2{
+        width: 120px;
+        margin-left: 13px;
+    }
+    .overlay3{
+        width: 120px;
+        margin-left: 65px;
+    }
+}

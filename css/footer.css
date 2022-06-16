@@ -1,0 +1,133 @@
+.footer{
+    bottom: 0;
+    height: 250px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #A03A9B, #50214E);
+    font-family: "Viga", sans-serif;;
+}
+.footer_contenedor_copiright{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer_cover{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.footer_contenedor_copiright h1{
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.footer_logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    width: 350px;
+}
+.footer_logo h1{
+    font-size: 35px;
+}
+.footer_logo p{
+    font-size: 23px;
+}
+
+.footer_informacion{
+    font-size: 35px;
+    text-align: center;
+    width: 350px;
+    margin-left: 34.5rem;
+    margin-top: 5px;
+}
+.footer_menu_contenedor{
+    width: 100%;
+}
+.footer_nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.footer_menu_a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.footer_menu{
+    text-align: center;
+}
+
+.seleccionado:hover{
+    background-color: #034574;
+    transition: 0.5s;
+}
+
+.fit{
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+
+@media(max-width:768px){
+    .footer{
+        width: 100%;
+        height: 293px;
+    }
+    .footer_informacion{
+        margin-top: 1.5rem;
+        margin-left: 0.5rem;
+        font-size: 18px;
+        text-decoration: underline;
+        text-decoration-color: rgb(207, 189, 224);
+        text-decoration-thickness: 6px;
+    }
+    .footer_logo{
+        width: 150px;
+        margin-left: 1rem;
+    }
+    .footer_logo h1{
+        font-size: 20px;
+    }
+    .footer_logo p{
+        font-size: 15px;
+    }
+    .footer_menu_contenedor ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -3rem;
+        margin-top: 5px;
+    }
+    .footer_contenedor_copiright{
+        margin-top: 1.5rem;
+    }
+    .footer_contenedor_copiright h1{
+        font-size: 15px;
+    }
+    .footer_nav a{
+        font-size: 18px;
+    }
+    .seleccionado:hover{
+        font-size: 19px;
+        border-radius: 15px;
+        background: linear-gradient(to right, #6c1c91, #110110);
+        transition: 0.5s;
+    }
+    .footer_nav li{
+        margin-bottom: 7px;
+    }
+    .fit{
+        padding: 3px 7px;
+        border-radius: 15px;
+    }
+}

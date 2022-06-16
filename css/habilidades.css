@@ -1,0 +1,113 @@
+.habilidades {
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0 auto;
+  margin-bottom: -1rem;
+  scroll-margin-top: 80px ;
+}
+
+.habilidades_cover {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.habilidades_informacion h1 {
+  font-size: 65px;
+  font-family: "Viga", sans-serif;
+  font-weight: bold;
+  margin-left: 25rem;
+}
+
+.habilidades_contenedor_imagenes {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+}
+
+.habilidades_imagen1 {
+  margin-top: 4rem;
+}
+
+.habilidades_imagen2 {
+  margin-top: 2rem;
+}
+
+.habilidades_imagen_css {
+  height: 200px;
+  width: 200px;
+}
+
+.habilidades_imagen3 {
+  margin-bottom: 2rem;
+}
+
+.habilidades_imagen_javascript {
+  height: 250px;
+  width: 250px;
+}
+
+.habilidades_imagen4 {
+  margin-top: 2rem;
+}
+
+.habilidades_imagen5 {
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .habilidades_cover {
+    margin: 0 auto;
+  }
+
+  .habilidades_informacion h1{
+    font-size: 45px;
+    font-family: "Viga", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 3.5rem;
+  }
+
+  .habilidades_contenedor_imagenes {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    margin-top: -4.5rem;
+  }
+
+  .habilidades_imagen_css {
+    margin-top: 61px;
+  }
+
+  .habilidades_imagen_html {
+    height: 150px;
+    width: 150px;
+  }
+
+  .habilidades_imagen_css {
+    height: 120px;
+    width: 110px;
+  }
+
+  .habilidades_imagen_javascript {
+    height: 145px;
+    width: 130px;
+  }
+
+  .habilidades_imagen_git {
+    height: 150px;
+    width: 150px;
+    margin-top: -85px;
+  }
+
+  .habilidades_imagen_sass {
+    height: 145px;
+    width: 130px;
+    margin-top: -29px;
+  }
+
+  .habilidades_imagen5 {
+    margin-left: 85px;
+  }
+}
